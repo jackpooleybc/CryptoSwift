@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AF19DC247C9E08004AA287 /* ISO10126Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF19DB247C9E08004AA287 /* ISO10126Padding.swift */; };
+		04AF19E2247D313F004AA287 /* ISO10126PaddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF19E1247D313F004AA287 /* ISO10126PaddingTests.swift */; };
 		0AF023D5230F2B0F008E4E68 /* ISO78164Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF023D4230F2B0F008E4E68 /* ISO78164Padding.swift */; };
 		0AF023D6230F2B0F008E4E68 /* ISO78164Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF023D4230F2B0F008E4E68 /* ISO78164Padding.swift */; };
 		0AF023D7230F2B0F008E4E68 /* ISO78164Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF023D4230F2B0F008E4E68 /* ISO78164Padding.swift */; };
@@ -199,6 +201,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04AF19DB247C9E08004AA287 /* ISO10126Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO10126Padding.swift; sourceTree = "<group>"; };
+		04AF19E1247D313F004AA287 /* ISO10126PaddingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO10126PaddingTests.swift; sourceTree = "<group>"; };
 		0AF023D4230F2B0F008E4E68 /* ISO78164Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO78164Padding.swift; sourceTree = "<group>"; };
 		0EE73E70204D598100110E11 /* CMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
 		0EE73E72204D599C00110E11 /* CMACTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMACTests.swift; sourceTree = "<group>"; };
@@ -456,6 +460,7 @@
 				75C2E76C1D55F097003D2BCA /* Access.swift */,
 				756BFDCA1A82B87300B9D9A4 /* Bridging.h */,
 				754BE46519693E190098E6F3 /* Supporting Files */,
+				04AF19E1247D313F004AA287 /* ISO10126PaddingTests.swift */,
 			);
 			name = Tests;
 			path = Tests/CryptoSwiftTests;
@@ -514,6 +519,7 @@
 		75EC52371EE8B6CA0048EB3B /* CryptoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				04AF19DB247C9E08004AA287 /* ISO10126Padding.swift */,
 				0AF023D4230F2B0F008E4E68 /* ISO78164Padding.swift */,
 				7529366820683DFC00195874 /* AEAD */,
 				75EC52381EE8B6CA0048EB3B /* AES.swift */,
@@ -885,6 +891,7 @@
 				752BED9E208C121000FC4743 /* Blowfish.swift in Sources */,
 				75EC52A91EE8B83D0048EB3B /* PKCS7Padding.swift in Sources */,
 				75EC52A51EE8B8290048EB3B /* Padding.swift in Sources */,
+				04AF19DC247C9E08004AA287 /* ISO10126Padding.swift in Sources */,
 				75EC527F1EE8B8130048EB3B /* BatchedCollection.swift in Sources */,
 				75EC52991EE8B8200048EB3B /* Data+Extension.swift in Sources */,
 				75EC52B61EE8B83D0048EB3B /* UInt8+Extension.swift in Sources */,
@@ -937,6 +944,7 @@
 				14156CE52011422400DDCFBC /* ChaCha20Poly1305Tests.swift in Sources */,
 				757DA2551A4ED408002BA3EF /* AESTests.swift in Sources */,
 				7594CCBC217A76DC0055C95D /* AESCCMTests.swift in Sources */,
+				04AF19E2247D313F004AA287 /* ISO10126PaddingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
